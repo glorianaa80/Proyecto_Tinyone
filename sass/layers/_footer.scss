@@ -19,12 +19,18 @@
 
 #space{
     width: 56%;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    color: $cajas;
 }
 
 #btn{
+    width: 12%;
+    height: 50px;
     background-color: $header;
     border: 0;
-    width: 12%;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
