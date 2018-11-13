@@ -1,0 +1,27 @@
+#header{
+    background-color: $header;
+}
+
+.menu0{
+    display: inline-block;
+}
+
+.menu{
+    padding: $cero;
+    margin: $cero;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li + li{
+    margin-left: 1%; 
+}
+.menu a{
+    text-decoration: none;
+    color:$footer;
+    font-size: (22px / $fzparem + rem);
+}
