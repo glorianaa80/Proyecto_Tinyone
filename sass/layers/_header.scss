@@ -1,4 +1,5 @@
 #header{
+    padding-top: 6%;
     background-color: $header;
 }
 
@@ -8,12 +9,14 @@
 }
 
 .menu0{
-    display: inline-block;
-}
-
-.menu{
     padding: $cero;
     margin: $cero;
+    float: right;
+}
+
+.menu{  
+    font-weight: bold; 
+    text-decoration: none;
     list-style: none;
     display: inline-block;
 }
@@ -23,7 +26,7 @@
 }
 
 .menu li + li{
-    margin-left: 1%; 
+    margin-left: 72px; 
 }
 .menu a{
     text-decoration: none;
