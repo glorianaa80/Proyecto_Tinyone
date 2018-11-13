@@ -1,0 +1,55 @@
+#contenedor{
+    width: 940px;
+    margin: 0 auto;
+}
+.color{
+    text-align: center;
+    color:$footer;
+    width: 80%;
+    padding-left: $nueve;
+}
+
+.espacio{
+    padding-top:16% ;
+}
+
+.espacio2{
+    padding-bottom: 12%;
+}
+
+.cajas{
+    width: 30%;
+    display: inline-block;
+    padding: $cero $uno $nueve $uno;
+}
+
+.ima{
+    float: left;
+    padding-right: $diez;
+}
+
+.medida{
+    padding-right: $siete;
+}
+
+.medida2{
+    padding-right: $seis;
+}
+
+.medida3{
+    padding-right: $cinco;
+}
+
+.medida4{
+    padding-right: $cuatro;
+}
+
+.sub{
+   color: $footer;
+   font-size: ($veinte2 / $fzparem + rem);
+}
+
+.text2{
+    color: $cajas;
+    padding-left: 25%;
+}
