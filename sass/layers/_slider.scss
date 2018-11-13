@@ -1,0 +1,46 @@
+#slider{
+    background-color: $header;
+    padding-bottom: $once;
+}
+
+.slider1{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.slider2{
+    padding-top:$catorce;
+    width: $cuarenta5;
+    display: inline-block;
+}
+
+.titulos{
+    padding: $cero;
+    margin: $cero;
+    padding: 0  $uno 0  $uno;
+    font-size: ($treinta2 / $fzparem + rem);
+}
+
+.titulo2{
+    padding: 0 $uno 0  $uno;
+    margin-top:$dos; 
+    font-weight: normal;
+    font-style: normal;
+    font-size: ($veinte2 / $fzparem + rem);
+    color: $titulo2;
+}
+
+.texto{
+    margin-top: $tres;
+    padding: 0  $uno 0  $uno;
+}
+
+.internet{
+    margin-left: $tres;
+    display: inline;
+}
+
+.imagen{
+    margin-top: $siete;
+    display: inline-block;
+}
