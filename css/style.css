@@ -39,6 +39,7 @@
   display: inline-block; }
 
 .titulos {
+  font-weight: bold;
   padding: 0px;
   margin: 0px;
   padding: 0 1% 0 1%;
@@ -65,7 +66,90 @@
   display: inline-block; }
 
 #footer {
-  background-color: coral; }
+  background-color: #010101; }
+
+.footer2 {
+  padding-top: 7.5%;
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10%; }
+
+.color2 {
+  color: #fcdb00; }
+
+.text3 {
+  color: #898989; }
+
+#space {
+  width: 56%; }
+
+#btn {
+  background-color: #fcdb00;
+  border: 0;
+  width: 12%;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+#formulario {
+  padding-bottom: 8%; }
+
+.sprite {
+  background-image: url(../img/share.png);
+  background-repeat: no-repeat;
+  display: inline-block; }
+
+.sprite-fb {
+  width: 55px;
+  height: 55px;
+  background-position: 0px  -3px; }
+
+.sprite-t {
+  width: 55px;
+  height: 55px;
+  background-position: -65px -3px; }
+
+.sprite-g {
+  width: 55px;
+  height: 55px;
+  background-position: -130px -3px; }
+
+.sprite-p {
+  width: 55px;
+  height: 55px;
+  background-position: -200px -3px; }
+
+a {
+  color: transparent; }
+
+#subFooter {
+  background-color: #010101; }
+
+.sub3 {
+  width: 940px;
+  margin: 0 auto; }
+
+.menu3 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  list-style: none;
+  position: absolute; }
+
+.subF1 {
+  position: relative;
+  width: 21%;
+  padding-right: 12%;
+  display: inline-block;
+  padding-bottom: 15%; }
+
+.subF2 {
+  position: relative;
+  width: 7%;
+  padding-right: 8%;
+  display: inline-block;
+  padding-bottom: 15%; }
 
 #contenedor {
   width: 940px;
