@@ -1,6 +1,12 @@
 #slider{
     background-color: $header;
-    padding-bottom: $once;
+    padding-bottom: 15%;
+}
+
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
 }
 
 .slider1{
@@ -43,5 +49,5 @@
 
 .imagen{
     margin-top: $siete;
-    display: inline-block;
+    float: right;
 }
