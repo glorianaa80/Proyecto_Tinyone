@@ -1,6 +1,84 @@
+@media (max-width: 768px) {
+  #header .logoImg {
+    display: inline;
+    width: 3%;
+    padding-left: 3%; }
+  #header .logo {
+    margin: 0 auto;
+    padding-left: 20%; }
+  #header .menu0 {
+    display: none; }
+  #header .share {
+    float: right;
+    display: block; }
+  #header .sprite2 {
+    background-image: url(../img/share2.png);
+    background-repeat: no-repeat;
+    display: inline-block; }
+  #header .sprite-fb2 {
+    width: 21px;
+    height: 19px;
+    margin-right: 2%;
+    background-position: 0px  -1px; }
+  #header .sprite-t2 {
+    width: 22px;
+    height: 19px;
+    margin-right: 2%;
+    background-position: -41px -1px; }
+  #header .sprite-g2 {
+    width: 22px;
+    height: 19px;
+    margin-right: 2%;
+    background-position: -81px -1px; }
+  #header .sprite-p2 {
+    width: 21px;
+    height: 19px;
+    background-position: -122px 0; }
+  #header a {
+    color: transparent; }
+
+  #slider .slider2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; }
+  #slider .imagen {
+    display: none; }
+  #slider .internet {
+    display: none; }
+  #slider .dispositivos {
+    display: inline; }
+  #slider .sprite3 {
+    background-image: url(../img/dispositivos.png);
+    background-repeat: no-repeat;
+    display: inline-block; }
+  #slider .sprite-a {
+    width: 69px;
+    height: 69px;
+    margin-right: 3%;
+    background-position: 0px  0px; }
+  #slider .sprite-an {
+    width: 69px;
+    height: 69px;
+    margin-right: 3%;
+    background-position: -105px 0px; }
+  #slider .sprite-w {
+    width: 69px;
+    height: 69px;
+    background-position: -210px 0px; } }
 #header {
+  width: 100%;
   padding-top: 6%;
   background-color: #fcdb00; }
+
+.logoImg {
+  display: none; }
+
+.share {
+  display: none; }
+
+.share1 {
+  padding: 0;
+  margin: 0; }
 
 .header1 {
   width: 940px;
@@ -15,7 +93,7 @@
   font-weight: bold;
   text-decoration: none;
   list-style: none;
-  display: inline-block; }
+  display: inline; }
 
 .menu li {
   display: inline; }
@@ -29,13 +107,15 @@
   font-size: 1.375rem; }
 
 #slider {
+  width: 100%;
   background-color: #fcdb00;
-  padding-bottom: 15%; }
+  padding-bottom: 10%; }
 
 .clearfix {
   display: block;
   content: "";
-  clear: both; }
+  clear: both;
+  overflow: hidden; }
 
 .slider1 {
   width: 940px;
@@ -44,7 +124,7 @@
 .slider2 {
   padding-top: 14%;
   width: 45%;
-  display: inline-block; }
+  float: left; }
 
 .titulos {
   font-weight: bold;
@@ -65,15 +145,22 @@
   margin-top: 3%;
   padding: 0 1% 0 1%; }
 
+.dispositivos {
+  display: none; }
+
 .internet {
   margin-left: 3%;
   display: inline; }
 
 .imagen {
+  margin: 0 auto;
   margin-top: 7%;
+  max-width: 100%;
+  display: block;
   float: right; }
 
 #footer {
+  width: 100%;
   background-color: #010101; }
 
 .footer2 {
@@ -88,6 +175,9 @@
 
 .text3 {
   color: #898989; }
+
+#formulario {
+  padding-bottom: 8%; }
 
 #space {
   width: 56%;
@@ -106,8 +196,9 @@
   text-transform: uppercase;
   font-weight: bold; }
 
-#formulario {
-  padding-bottom: 8%; }
+.sprite1 {
+  padding: 0;
+  margin: 0; }
 
 .sprite {
   background-image: url(../img/share.png);
@@ -115,29 +206,33 @@
   display: inline-block; }
 
 .sprite-fb {
-  width: 55px;
+  width: 38px;
   height: 55px;
+  margin-right: 1.5%;
   background-position: 0px  -3px; }
 
 .sprite-t {
-  width: 55px;
-  height: 55px;
+  width: 43px;
+  height: 37px;
+  margin-right: 1.5%;
   background-position: -65px -3px; }
 
 .sprite-g {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 37px;
+  margin-right: 1.5%;
   background-position: -130px -3px; }
 
 .sprite-p {
-  width: 55px;
-  height: 55px;
+  width: 44px;
+  height: 37px;
   background-position: -200px -3px; }
 
 a {
   color: transparent; }
 
 #subFooter {
+  width: 100%;
   background-color: #010101; }
 
 .sub3 {
@@ -166,6 +261,10 @@ a {
   padding-bottom: 15%; }
 
 #contenedor {
+  width: 100%;
+  background-color: white; }
+
+.conte {
   width: 940px;
   margin: 0 auto; }
 
@@ -173,7 +272,7 @@ a {
   text-align: center;
   color: #010101;
   width: 80%;
-  padding-left: 9%; }
+  margin: 0 auto; }
 
 .espacio {
   padding-top: 16%; }
