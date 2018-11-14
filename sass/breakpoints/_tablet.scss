@@ -1,3 +1,97 @@
 @media (max-width: $breakpoint-md){
-    
+    #header{
+        .logoImg{
+            display: inline;
+            width: 3%;
+            padding-left: 3%;
+        }
+        .logo{
+            margin: 0 auto;
+            padding-left: 20%;
+        }
+        .menu0{
+            display: none;
+        }
+        .share{
+            float: right;
+            display: block;
+        }
+        .sprite2{
+            background-image: url(../img/share2.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        .sprite-fb2{
+            width: 21px;
+            height: 19px;
+            margin-right: 2%;
+            background-position: 0px  -1px;
+        }
+
+        .sprite-t2{
+            width: 22px;
+            height: 19px;
+            margin-right: 2%;
+            background-position: -41px -1px;
+        }
+
+        .sprite-g2{
+            width: 22px;
+            height: 19px;
+            margin-right: 2%;
+            background-position: -81px -1px;
+        }
+
+        .sprite-p2{
+            width: 21px;
+            height: 19px;
+            background-position: -122px 0;
+        }
+
+        a{
+            color: transparent;
+        }
+    }
+    #slider{
+        .slider2{
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .imagen{
+            display: none;
+        }
+        .internet{
+            display: none;
+        }
+        .dispositivos{
+            display: inline;
+        }
+        .sprite3{
+            background-image: url(../img/dispositivos.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        .sprite-a{
+            width: 69px;
+            height: 69px;
+            margin-right: 3%;
+            background-position: 0px  0px;
+        }
+
+        .sprite-an{
+            width: 69px;
+            height: 69px;
+            margin-right: 3%;
+            background-position: -105px 0px;
+        }
+
+        .sprite-w{
+            width: 69px;
+            height: 69px;
+            background-position: -210px 0px;
+        }
+    }
 }
