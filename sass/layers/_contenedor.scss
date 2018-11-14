@@ -1,12 +1,18 @@
 #contenedor{
+    width: 100%;
+    background-color: $blanco;
+}
+
+.conte{
     width: 940px;
     margin: 0 auto;
 }
+
 .color{
     text-align: center;
     color:$footer;
     width: 80%;
-    padding-left: $nueve;
+    margin: 0 auto;
 }
 
 .espacio{
