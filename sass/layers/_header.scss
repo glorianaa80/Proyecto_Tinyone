@@ -1,6 +1,19 @@
 #header{
+    width: 100%;
     padding-top: 6%;
     background-color: $header;
+}
+
+.logoImg{
+    display: none;
+}
+
+.share{
+    display: none;
+}
+.share1{
+    padding: 0;
+    margin: 0;
 }
 
 .header1{
@@ -18,7 +31,7 @@
     font-weight: bold; 
     text-decoration: none;
     list-style: none;
-    display: inline-block;
+    display: inline;
 }
 
 .menu li{
