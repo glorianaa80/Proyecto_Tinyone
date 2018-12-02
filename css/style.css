@@ -2,136 +2,228 @@
   #header .logoImg {
     display: inline;
     width: 3%;
-    padding-left: 3%; }
+    padding-left: 3%;
+  }
   #header .logo {
     margin: 0 auto;
-    padding-left: 20%; }
+    padding-left: 20%;
+  }
   #header .menu0 {
-    display: none; }
+    display: none;
+  }
   #header .share {
+    width: 35%;
     float: right;
-    display: block; }
+    display: block;
+  }
   #header .sprite2 {
     background-image: url(../img/share2.png);
     background-repeat: no-repeat;
-    display: inline-block; }
+    display: inline-block;
+  }
   #header .sprite-fb2 {
     width: 21px;
     height: 19px;
-    margin-right: 2%;
-    background-position: 0px  -1px; }
+    background-position: 0px -1px;
+  }
   #header .sprite-t2 {
     width: 22px;
     height: 19px;
-    margin-right: 2%;
-    background-position: -41px -1px; }
+    background-position: -41px -1px;
+  }
   #header .sprite-g2 {
     width: 22px;
     height: 19px;
-    margin-right: 2%;
-    background-position: -81px -1px; }
+    background-position: -81px -1px;
+  }
   #header .sprite-p2 {
     width: 21px;
     height: 19px;
-    background-position: -122px 0; }
+    background-position: -122px 0;
+  }
   #header a {
-    color: transparent; }
+    color: transparent;
+  }
 
   #slider .slider2 {
     width: 100%;
-    text-align: center;
-    margin: 0 auto; }
+  }
   #slider .imagen {
-    display: none; }
+    display: none;
+  }
+  #slider .titulos {
+    padding-left: 15%;
+  }
+  #slider .texto {
+    text-align: center;
+    padding-left: 6.5%;
+    padding-top: 2.6%;
+    width: 60%;
+  }
   #slider .internet {
-    display: none; }
+    display: none;
+  }
   #slider .dispositivos {
-    display: inline; }
+    display: inline;
+  }
   #slider .sprite3 {
+    margin-top: 3.3%;
+    margin-bottom: 22.6%;
     background-image: url(../img/dispositivos.png);
     background-repeat: no-repeat;
-    display: inline-block; }
+    display: inline-block;
+  }
   #slider .sprite-a {
+    margin-left: 17.5%;
     width: 69px;
     height: 69px;
     margin-right: 3%;
-    background-position: 0px  0px; }
+    background-position: 0px 0px;
+  }
   #slider .sprite-an {
     width: 69px;
     height: 69px;
     margin-right: 3%;
-    background-position: -105px 0px; }
+    background-position: -105px 0px;
+  }
   #slider .sprite-w {
     width: 69px;
     height: 69px;
-    background-position: -210px 0px; } }
+    background-position: -210px 0px;
+  }
+  #slider .titulo2 {
+    display: none;
+  }
+
+  #contenedor .color {
+    width: 68%;
+    margin-left: 4%;
+  }
+  #contenedor .texto {
+    text-align: center;
+    padding-left: 6.5%;
+    padding-top: 2.6%;
+    width: 60%;
+  }
+  #contenedor .cTablet {
+    display: none;
+  }
+  #contenedor .imagen2 {
+    margin: 0 auto;
+    margin-top: 7%;
+    max-width: 100%;
+    display: block;
+  }
+  #contenedor .cajas {
+    width: 25%;
+    padding: 0 0 4% 0;
+  }
+  #contenedor .dere2 {
+    float: left;
+  }
+  #contenedor .sub {
+    padding-left: 5%;
+  }
+  #contenedor .text2 {
+    padding-left: 5%;
+  }
+  #contenedor .ima {
+    display: none;
+  }
+
+  #footer .footer2 {
+    width: 68%;
+  }
+  #footer .sprite1 {
+    display: none;
+  }
+
+  #subFooter .sub3 {
+    padding-left: 2%;
+  }
+}
 #header {
   width: 100%;
   padding-top: 6%;
-  background-color: #fcdb00; }
+  background-color: #fcdb00;
+}
 
 .logoImg {
-  display: none; }
+  display: none;
+}
 
 .share {
-  display: none; }
+  display: none;
+}
 
 .share1 {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .header1 {
   width: 940px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .menu0 {
   padding: 0px;
   margin: 0px;
-  float: right; }
+  float: right;
+}
 
 .menu {
   font-weight: bold;
   text-decoration: none;
   list-style: none;
-  display: inline; }
+  display: inline;
+}
 
 .menu li {
-  display: inline; }
+  display: inline;
+}
 
 .menu li + li {
-  margin-left: 38px; }
+  margin-left: 38px;
+}
 
 .menu a {
   text-decoration: none;
   color: #010101;
-  font-size: 1.375rem; }
+  font-size: 1.375rem;
+}
 
 #slider {
   width: 100%;
   background-color: #fcdb00;
-  padding-bottom: 10%; }
+  padding-bottom: 10%;
+}
 
 .clearfix {
   display: block;
   content: "";
   clear: both;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .slider1 {
   width: 940px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .slider2 {
   padding-top: 14%;
   width: 45%;
-  float: left; }
+  float: left;
+}
 
 .titulos {
   font-weight: bold;
   padding: 0px;
   margin: 0px;
   padding: 0 1% 0 1%;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .titulo2 {
   padding: 0 1% 0 1%;
@@ -139,45 +231,55 @@
   font-weight: normal;
   font-style: normal;
   font-size: 1.25rem;
-  color: #313841; }
+  color: #313841;
+}
 
 .texto {
   margin-top: 3%;
-  padding: 0 1% 0 1%; }
+  padding: 0 1% 0 1%;
+}
 
 .dispositivos {
-  display: none; }
+  display: none;
+}
 
 .internet {
   margin-left: 3%;
-  display: inline; }
+  display: inline;
+}
 
 .imagen {
   margin: 0 auto;
   margin-top: 7%;
   max-width: 100%;
   display: block;
-  float: right; }
+  float: right;
+}
 
 #footer {
   width: 100%;
-  background-color: #010101; }
+  background-color: #010101;
+}
 
 .footer2 {
   padding-top: 7.5%;
   width: 940px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 10%; }
+  padding-bottom: 10%;
+}
 
 .color2 {
-  color: #fcdb00; }
+  color: #fcdb00;
+}
 
 .text3 {
-  color: #898989; }
+  color: #898989;
+}
 
 #formulario {
-  padding-bottom: 8%; }
+  padding-bottom: 8%;
+}
 
 #space {
   width: 56%;
@@ -185,7 +287,8 @@
   padding: 0;
   border: 0;
   border-radius: 5px;
-  color: #898989; }
+  color: #898989;
+}
 
 #btn {
   width: 12%;
@@ -194,128 +297,156 @@
   border: 0;
   border-radius: 5px;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .sprite1 {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .sprite {
   background-image: url(../img/share.png);
   background-repeat: no-repeat;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .sprite-fb {
   width: 38px;
   height: 55px;
   margin-right: 1.5%;
-  background-position: 0px  -3px; }
+  background-position: 0px -3px;
+}
 
 .sprite-t {
   width: 43px;
   height: 37px;
   margin-right: 1.5%;
-  background-position: -65px -3px; }
+  background-position: -65px -3px;
+}
 
 .sprite-g {
   width: 45px;
   height: 37px;
   margin-right: 1.5%;
-  background-position: -130px -3px; }
+  background-position: -130px -3px;
+}
 
 .sprite-p {
   width: 44px;
   height: 37px;
-  background-position: -200px -3px; }
+  background-position: -200px -3px;
+}
 
 a {
-  color: transparent; }
+  color: transparent;
+}
 
 #subFooter {
   width: 100%;
-  background-color: #010101; }
+  background-color: #010101;
+}
 
 .sub3 {
   width: 940px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .menu3 {
   padding: 0;
   margin: 0;
   color: white;
   list-style: none;
-  position: absolute; }
+  position: absolute;
+}
 
 .subF1 {
   position: relative;
   width: 21%;
   padding-right: 12%;
   display: inline-block;
-  padding-bottom: 15%; }
+  padding-bottom: 15%;
+}
 
 .subF2 {
   position: relative;
   width: 7%;
   padding-right: 8%;
   display: inline-block;
-  padding-bottom: 15%; }
+  padding-bottom: 15%;
+}
 
 #contenedor {
   width: 100%;
-  background-color: white; }
+  background-color: white;
+}
 
 .conte {
   width: 940px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .color {
   text-align: center;
   color: #010101;
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .espacio {
-  padding-top: 16%; }
+  padding-top: 16%;
+}
 
 .espacio2 {
-  padding-bottom: 12%; }
+  padding-bottom: 12%;
+}
 
 .cajas {
   width: 30%;
   display: inline-block;
-  padding: 0px 1% 9% 1%; }
+  padding: 0px 1% 9% 1%;
+}
 
 .ultima {
-  padding-bottom: 18%; }
+  padding-bottom: 18%;
+}
 
 .ima {
   float: left;
-  padding-right: 10%; }
+  padding-right: 10%;
+}
 
 .medida {
-  padding-right: 7%; }
+  padding-right: 7%;
+}
 
 .medida2 {
-  padding-right: 6%; }
+  padding-right: 6%;
+}
 
 .medida3 {
-  padding-right: 5%; }
+  padding-right: 5%;
+}
 
 .medida4 {
-  padding-right: 4%; }
+  padding-right: 4%;
+}
 
 .sub {
   color: #010101;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+}
 
 .text2 {
   color: #898989;
-  padding-left: 25%; }
+  padding-left: 25%;
+}
 
 body {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
